@@ -1,0 +1,4 @@
+SELECT *
+FROM payments
+WHERE amount BETWEEN 5000 AND 15000 
+	AND paymentDate BETWEEN '2004-01-01' AND '2004-12-31';
